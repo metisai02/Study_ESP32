@@ -1,0 +1,83 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/metisa/Documents/ESP32/ESP_WorkSpace/http_request/build/bootloader/esp-idf/esptool_py && /home/metisa/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/metisa/Documents/ESP32/ESP_WorkSpace/http_request/build/bootloader/bootloader.bin
+Bootloader binary size 0x68a0 bytes. 0x760 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/http_main.c.obj
+[3/8] Linking C static library esp-idf/main/libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable http_main.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/metisa/Documents/ESP32/ESP_WorkSpace/http_request/build/http_main.bin
+[7/8] cd /home/metisa/Documents/ESP32/ESP_WorkSpace/http_request/build/esp-idf/esptool_py && /home/metisa/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/metisa/Documents/ESP32/ESP_WorkSpace/http_request/build/partition_table/partition-table.bin /home/metisa/Documents/ESP32/ESP_WorkSpace/http_request/build/http_main.bin
+http_main.bin binary size 0xd5090 bytes. Smallest app partition is 0x100000 bytes. 0x2af70 bytes (17%) free.
+[7/8] cd /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf -D "SERIAL_TOOL=/home/metisa/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/metisa/Documents/ESP32/ESP_WorkSpace/http_request/build -P /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 http_main.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.6.2
+Serial port /dev/ttyUSB0
+Connecting.....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: b8:d6:1a:68:ce:2c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000e5fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26784 bytes to 16825...
+Writing at 0x00001000... (50 %)
+Writing at 0x00007678... (100 %)
+Wrote 26784 bytes (16825 compressed) at 0x00001000 in 0.8 seconds (effective 252.5 kbit/s)...
+Hash of data verified.
+Compressed 872592 bytes to 562093...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001ba5e... (5 %)
+Writing at 0x00025c7d... (8 %)
+Writing at 0x0002acba... (11 %)
+Writing at 0x000338ce... (14 %)
+Writing at 0x0003bfc4... (17 %)
+Writing at 0x00041a04... (20 %)
+Writing at 0x000471b5... (22 %)
+Writing at 0x0004cb3b... (25 %)
+Writing at 0x00052600... (28 %)
+Writing at 0x0005836b... (31 %)
+Writing at 0x0005dc2e... (34 %)
+Writing at 0x00062fb3... (37 %)
+Writing at 0x000684ba... (40 %)
+Writing at 0x0006d6e5... (42 %)
+Writing at 0x00072dd5... (45 %)
+Writing at 0x000784b7... (48 %)
+Writing at 0x0007e100... (51 %)
+Writing at 0x00083d79... (54 %)
+Writing at 0x0008923e... (57 %)
+Writing at 0x0008eaac... (60 %)
+Writing at 0x000942ea... (62 %)
+Writing at 0x00099a36... (65 %)
+Writing at 0x0009f23b... (68 %)
+Writing at 0x000a4e64... (71 %)
+Writing at 0x000aaf65... (74 %)
+Writing at 0x000b0ba9... (77 %)
+Writing at 0x000b6416... (80 %)
+Writing at 0x000bbd2d... (82 %)
+Writing at 0x000c1534... (85 %)
+Writing at 0x000c9ff7... (88 %)
+Writing at 0x000d235c... (91 %)
+Writing at 0x000d8550... (94 %)
+Writing at 0x000de07f... (97 %)
+Writing at 0x000e330b... (100 %)
+Wrote 872592 bytes (562093 compressed) at 0x00010000 in 12.7 seconds (effective 549.8 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 330.9 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

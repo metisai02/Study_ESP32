@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    "task.h": "c",
+    "led_strip.h": "c",
+    "freertos.h": "c",
+    "gpio.h": "c",
+    "esp_wifi.h": "c",
+    "nvs_flash.h": "c",
+    "err.h": "c",
+    "sockets.h": "c",
+    "protocol_examples_common.h": "c",
+    "esp_http_client.h": "c"
+  }
+}

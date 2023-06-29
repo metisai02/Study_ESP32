@@ -1,0 +1,149 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081104: call_start_cpu1 at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008173a: panic_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4008645d: esp_system_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/esp_system_chip.c:90
+[0m
+[0;33m0x4008b642: abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x400d54a7: app_main at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:22
+[0m
+[0;33m0x400e4c9c: main_task at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40088a39: vPortTaskWrapper at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081104: call_start_cpu1 at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008173a: panic_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4008645d: esp_system_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/esp_system_chip.c:90
+[0m
+[0;33m0x4008b642: abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x400d54a7: app_main at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:22
+[0m
+[0;33m0x400e4c9c: main_task at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40088a39: vPortTaskWrapper at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081104: call_start_cpu1 at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008173a: panic_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4008645d: esp_system_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/esp_system_chip.c:90
+[0m
+[0;33m0x4008b642: abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x400d54a7: app_main at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:22
+[0m
+[0;33m0x400e4c9c: main_task at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40088a39: vPortTaskWrapper at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081104: call_start_cpu1 at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008173a: panic_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4008645d: esp_system_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/esp_system_chip.c:90
+[0m
+[0;33m0x4008b642: abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x400d54a7: app_main at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:22
+[0m
+[0;33m0x400e4c9c: main_task at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40088a39: vPortTaskWrapper at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081104: call_start_cpu1 at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008173a: panic_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4008645d: esp_system_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/esp_system_chip.c:90
+[0m
+[0;33m0x4008b642: abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x400d54a7: app_main at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:22
+[0m
+[0;33m0x400e4c9c: main_task at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40088a39: vPortTaskWrapper at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081104: call_start_cpu1 at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008173a: panic_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4008645d: esp_system_abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/esp_system_chip.c:90
+[0m
+[0;33m0x4008b642: abort at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40086453: _esp_error_check_failed at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d549d: uart_config at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:36 (discriminator 1)
+[0m
+[0;33m0x400d54a7: app_main at /home/metisa/Documents/ESP32/ESP_WorkSpace/UART_example/main/main.c:22
+[0m
+[0;33m0x400e4c9c: main_task at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40088a39: vPortTaskWrapper at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

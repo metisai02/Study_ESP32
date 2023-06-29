@@ -1,0 +1,29 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400811c4: call_start_cpu1 at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400df1d0: esp_http_client_get_header at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_http_client/esp_http_client.c:343
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400df1cd: esp_http_client_get_header at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_http_client/esp_http_client.c:343
+[0m
+[0;33m0x400dfe84: esp_http_client_set_post_field at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_http_client/esp_http_client.c:1582
+[0m
+[0;33m0x400d63d4: wifi_http_client at /home/metisa/Documents/ESP32/ESP_WorkSpace/http_request/main/http_main.c:95 (discriminator 3)
+[0m
+[0;33m0x400d6548: app_main at /home/metisa/Documents/ESP32/ESP_WorkSpace/http_request/main/http_main.c:149 (discriminator 2)
+[0m
+[0;33m0x40165dbb: main_task at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008b521: vPortTaskWrapper at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400811c4: call_start_cpu1 at /home/metisa/Documents/ESP32/ESP_WorkSpace/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0m
